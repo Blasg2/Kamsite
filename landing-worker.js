@@ -84,7 +84,7 @@ const PAGE = `<!DOCTYPE html>
     <h1>Kamsite</h1>
     <p class="tagline">A little something I'm building. Jump in and play.</p>
 
-    <a class="play-button" href="https://play.kamsite.uk/index.html">▶ Play</a>
+    <a class="play-button" href="https://play.kamsite.uk/index.html">▶ Kamsimulator</a>
 
     <div class="links">
       <a href="https://play.kamsite.uk/index.html">Open the game</a>
