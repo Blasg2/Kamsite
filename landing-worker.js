@@ -87,12 +87,11 @@ const PAGE = `<!DOCTYPE html>
     <a class="play-button" href="https://play.kamsite.uk/index.html">▶ Kamsimulator</a>
 
     <div class="links">
-      <a href="https://play.kamsite.uk/index.html">Open the game</a>
       <!-- Add more links here later -->
     </div>
 
     <p class="hint">
-      Tip: on your phone, open the game and use "Add to Home Screen" to install it.
+      Viva um dia como K.S
     </p>
   </main>
 </body>
