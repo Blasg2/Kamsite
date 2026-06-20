@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+// Cloudflare Worker — serves the kamsite.uk landing page.
+// Bare domain (kamsite.uk) works directly; no bucket, no /index.html needed.
+const PAGE = `<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
@@ -292,3 +294,14 @@
   </script>
 </body>
 </html>
+`;
+export default {
+  async fetch(request) {
+    return new Response(PAGE, {
+      headers: {
+        "content-type": "text/html; charset=UTF-8",
+        "cache-control": "public, max-age=300",
+      },
+    });
+  },
+};
