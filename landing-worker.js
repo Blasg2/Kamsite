@@ -86,10 +86,6 @@ const PAGE = `<!DOCTYPE html>
 
     <a class="play-button" href="https://play.kamsite.uk/index.html">▶ Kamsimulator</a>
 
-    <div class="links">
-      <!-- Add more links here later -->
-    </div>
-
     <p class="hint">
       Viva um dia como K.S
     </p>
